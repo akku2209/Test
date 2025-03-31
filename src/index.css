@@ -1,0 +1,148 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.login-form {
+  max-width: 300px;
+  margin-top: 6rem;
+  margin-left: 32rem;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.filterLabel {
+  text-align: right;
+  margin-right: 3rem;
+  margin-top: -3rem;
+}
+
+
+#filterDropdown {
+  text-align: right;
+  margin-bottom: 0rem;
+  margin-left: 74rem;
+  width: 5%;
+}
+
+option{
+  text-align: center;
+}
+
+.add-book-form {
+  max-width: 300px;
+  margin-top: 2rem;
+  margin-left: 32rem;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.add-book-btn {
+  margin-left: 0rem;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 8rem;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.login-text {
+  text-align: center;
+}
+
+.dashboard-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logout-btn {
+  margin-right: 2rem;
+}
+
+.book-info-btn {
+  margin-right: -5rem;
+}
+
+.dashboard-title {
+  margin-left: 1rem;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button-row button {
+  padding: 10px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.action-column {
+  text-align: center;
+
+  margin-right: 11px;
+
+  margin-left: 21px;
+}
+
+.action-column-delete {
+  text-align: center;
+
+  margin-right: 11px;
+
+  margin-left: 21px;
+  background-color: red;
+}
+
+.book-list {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+
+.book-add-btn {
+  margin-left: 92%;
+  margin-top: 1rem;
+}
